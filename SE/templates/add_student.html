@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" 
+    href="{{ url_for('static', filename='css/add.css') }}">
+  <title>Add Student</title>
+</head>
+<body>
+  <form action="/added" method="post">
+    
+    <label>Student Id</label>
+    <input type="text" name="id" required><br><br>
+    <label>Name</label>
+    <input type="text" name="name" required><br><br>
+    <label>Email</label>
+    <input type="email" name="mail" required><br><br>
+    <label>password</label>
+    <input type="password" name="pass" required><br><br>
+    <input type="submit"><br><br>
+  </form>  
+
+</body>

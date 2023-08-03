@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://img.freepik.com/free-vector/abstract-vector-blue-mesh-background-chaotically-connected-points-polygons-flying-space-flying-debris-futuristic-technology-style-card-lines-points-circles-planes-futuristic-design_1217-653.jpg?w=740&t=st=1690048849~exp=1690049449~hmac=3f0365ef94cc8dc3f4e67eb776e0ac7e1a3b5e8e7a5524a99aeb79f5b7be13b0');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"],
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  select {
+    cursor: pointer;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
